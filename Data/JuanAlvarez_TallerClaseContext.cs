@@ -15,5 +15,7 @@ namespace JuanAlvarez_TallerClase.Data
         }
 
         public DbSet<JuanAlvarez_TallerClase.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<JuanAlvarez_TallerClase.Models.Promo> Promo { get; set; } 
+
     }
 }
